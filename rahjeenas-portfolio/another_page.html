@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <!-- navbar-toggler with profile image and title -->
+
+    <nav class="container navbar justify-content-between">
+        <div class="pt-2 d-flex gap-4 image-title ">
+            <img class="image-left" src="./assets/imgs/nav-img.png" alt="rahjeena's profile image" width="32"
+                height="30">
+            <div class="title-right text-white fs-5 fw-bold">
+                Rahjeena Simpson
+            </div>
+        </div>
+
+        <div class="navbar-toggle">
+            <button class="navbar-toggler rounded-3 bg-light" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">About</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/rsimpson19" target="_blank">Github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:rahjeenasimpson19@gmail.com">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- card-group with projects -->
+
+    <h2 class="pb-5 text-center text-secondary display-5"><u>Projects</u></h2>
+
+    <div class="container">
+
+        <div class="row d-flex flex-row justify-content-center gap-3">
+            <div class="col-lg-4 d-flex flex-column align-items-stretch">
+                <div class="card h-90">
+                    <img src="./assets/imgs/resume-pic-demo.png" class="image-container"
+                        alt="rahjeena's resume demo image">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bolder fs-3"><u>Resume-Project</u></h5>
+                        <h6 class="card-subtitle mb-2 pt-1 text-body-secondary text-center fw-bold ">Markup and
+                            frameWorks used:
+                            HTML•
+                            CSS•
+                            BootStrap-icons• </h6>
+                        <h6 class="card-subtitle mb-2 text-body-secondary text-center fw-bold ">Additonal outside
+                            source: Icons8
+                        </h6>
+                        <p class="card-text pt-4 "><strong>Description:</strong> Using the frameworks and
+                            markup
+                            above, i was able to achieve in building a responsive web application detailing my resume's
+                            work
+                            history
+                            executing both soft and hard skills.</p>
+                        <div class="d-flex justify-content-evenly">
+
+                            <a href="https://famous-dasik-6320d9.netlify.app" class="card-link text-decoration-none fs-4">Live-Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 d-flex  flex-column align-items-stretch">
+                <div class="card h-100">
+                    <img src="./assets/imgs/portfolio_demo_image.png" class="image-container"
+                        alt="portfolio demo image">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bolder fs-3"><u>Portolio-Project</u></h5>
+                        <h6 class="card-subtitle mb-2 pt-1 text-body-secondary text-center fw-bold ">Markup and
+                            frameWorks used:
+                            HTML•
+                            CSS•
+                            BootStrap w/ icons• </h6>
+                        <h6 class="card-subtitle mb-2 text-body-secondary text-center fw-bold">Additonal outside source:
+                            Canva•
+                            Icons8</h6>
+                        <p class="card-text pt-4"><strong>Description:</strong> Using the frameworks and
+                            markup
+                            above, i was able to achieve in building a responsive web application that includes
+                            accessibilty and projects in web development.</p>
+                        <div class="d-flex justify-content-evenly">
+
+                            <a href="https://dazzling-syrniki-54bc89.netlify.app" class="card-link text-decoration-none fs-4">Live-Demo </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

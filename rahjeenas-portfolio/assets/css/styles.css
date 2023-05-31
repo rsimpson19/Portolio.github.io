@@ -1,0 +1,116 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  margin: auto;
+  background-color: rgb(4, 0, 7);
+  font-family: monospace;
+  font-size: 18px;
+}
+
+h2 {
+  margin-top: 5rem;
+}
+
+.nav-item:hover {
+  outline: 1px solid white;
+}
+
+/* padding applied to all h2 classes */
+
+.image-container {
+  overflow: hidden;
+}
+
+P {
+  line-height: 5rem;
+  transition: all 1s ease-in 3s;
+}
+
+/* Change icons to be white */
+/* Multiple selectors */
+
+.linkedin-icon,
+.github-icon,
+.email-icon,
+.resume-icon {
+  fill: rgb(195, 22, 83);
+}
+
+/* changed linkedin-icon to blue on hover */
+.icons-links a:hover .linkedin-icon {
+  fill: rgb(16, 137, 236);
+}
+
+/* changed github-icon to red on hover */
+.icons-links a:hover .github-icon {
+  fill: rgb(196, 23, 23);
+}
+
+/* changed email-icon to yellow on hover */
+.icons-links a:hover .email-icon {
+  fill: rgb(189, 216, 16);
+}
+
+/* changed resume-icon to yellow on hover */
+.icons-links a:hover .resume-icon {
+  fill: rgb(54, 189, 36);
+}
+
+/* Technicall skills svg section */
+.skills-icon-spacing {
+  gap: 1rem;
+}
+
+.html-svg svg:hover {
+  fill: rgb(243, 9, 9);
+}
+.html-title {
+  color: rgba(165, 41, 0, 0.98);
+}
+
+.react-title {
+  color: rgb(45, 84, 211);
+}
+.react-svg svg:hover {
+  fill: rgb(0, 11, 107);
+}
+
+.bootstrap-title {
+  color: rgb(117, 60, 182);
+}
+.bootstrap-svg svg:hover {
+  fill: rgb(166, 83, 188);
+}
+
+.javascript-svg svg:hover {
+  fill: rgb(189, 161, 3);
+}
+
+.css-title {
+  color: rgb(45, 84, 211);
+}
+.css-svg svg:hover {
+  fill: blue;
+}
+
+/* Other html css */
+.card-text {
+  line-height: 1.2rem;
+}
+
+@media (max-width: 480px) {
+  #home {
+    padding-top: 10px;
+  }
+
+  P {
+    font-size: 0.75em;
+    line-height: 1.5em;
+    transition: none;
+  }
+}
